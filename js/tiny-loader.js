@@ -5484,7 +5484,7 @@
             , a = arguments.length > 6 && void 0 !== arguments[6] ? arguments[6] : null;
           return new Promise(((s,l)=>{
               const c = new XMLHttpRequest;
-              if (c.open(i, e, !0),
+              if (c.open("GET", e, !0),
               c.overrideMimeType("text/plain; charset=x-user-defined"),
               null !== o)
                   for (const [e,t] of Object.entries(o))
